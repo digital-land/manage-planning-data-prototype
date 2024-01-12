@@ -26,6 +26,32 @@
     values: data.filters.statuses
   }) }}
 
+  {{ govukCheckboxes({
+    idPrefix: "filters[organisations]",
+    name: "filters[organisations]",
+    classes: "govuk-checkboxes--small",
+    fieldset: {
+      legend: {
+        text: "Organisation",
+        classes: "govuk-fieldset__legend--s"
+      }
+    },
+    items: [{
+      value: 'Barnet',
+      text: 'Barnet'
+    }, {
+      value: 'Southwark',
+      text: 'Southwark'
+    }, {
+      value: 'Hertfordshire',
+      text: 'Hertfordshire'
+    }, {
+      value: 'London',
+      text: 'London'
+    }],
+    values: data.filters.organisations
+  }) }}
+
 {% endset %}
 
 <div class="app-filter">
@@ -43,7 +69,7 @@
         <div class="app-filter__selected-heading">
           <div class="app-filter__heading-title">
             <h2 class="govuk-heading-m govuk-!-margin-bottom-1">Selected filters</h2>
-            <p class="govuk-body"><a class="govuk-link govuk-link--no-visited-state" href="/applications/clear-filters">Clear filters</a></p>
+            <p class="govuk-body"><a class="govuk-link govuk-link--no-visited-state" href="/datasets/clear-filters">Clear filters</a></p>
           </div>
         </div>
         {% for category in selectedFilters.categories %}
@@ -57,7 +83,7 @@
       </div>
     {% endif %}
     <div class="app-filter__options">
-      <form method="get" action="/applications" novalidate>
+      <form method="get" action="/datasets" novalidate>
         <button class="govuk-button" data-module="govuk-button">
           Apply filters
         </button>

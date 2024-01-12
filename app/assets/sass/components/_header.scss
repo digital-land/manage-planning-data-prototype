@@ -5,12 +5,12 @@
 
 .govuk-header__logo {
   @include govuk-media-query($from: tablet) {
-    width: 75%;
+    width: 60%;
   }
 }
 
 .govuk-header__content {
   @include govuk-media-query($from: tablet) {
-    width: 25%;
+    width: 40%;
   }
 }
