@@ -16,9 +16,9 @@ module.exports = router => {
 
     // ['Received', ...]
     let selectedStatusFilters = _.get(req.session.data.filters, 'statuses')
-    let selectedNumberOfBallsFilters = _.get(req.session.data.filters, 'numberOfBalls')
+    let selectedOrganisationFilters = _.get(req.session.data.filters, 'organisations')
 
-    let hasFilters = _.get(selectedStatusFilters, 'length') || _.get(selectedNumberOfBallsFilters, 'length')
+    let hasFilters = _.get(selectedStatusFilters, 'length') || _.get(selectedOrganisationFilters, 'length')
 
     let selectedFilters = {
       categories: []
@@ -28,17 +28,17 @@ module.exports = router => {
     if(hasFilters) {
       datasets = datasets.filter(dataset => {
         let matchesStatus = true
-        let matchesNumberOfBalls = true
+        let matchesOrganisation = true
 
         if(_.get(selectedStatusFilters, 'length')) {
           matchesStatus = selectedStatusFilters.includes(dataset.status);
         }
 
-        if(_.get(selectedNumberOfBallsFilters, 'length')) {
-          matchesNumberOfBalls = selectedNumberOfBallsFilters.includes(dataset.experience.numberOfBalls);
+        if(_.get(selectedOrganisationFilters, 'length')) {
+          matchesOrganisation = selectedOrganisationFilters.includes(dataset.organisation.name);
         }
 
-        return matchesStatus && matchesNumberOfBalls
+        return matchesStatus && matchesOrganisation
       })
     }
 
@@ -54,13 +54,13 @@ module.exports = router => {
       })
     }
 
-    if(_.get(selectedNumberOfBallsFilters, 'length')) {
+    if(_.get(selectedOrganisationFilters, 'length')) {
       selectedFilters.categories.push({
-        heading: { text: 'Number of balls' },
-        items: selectedNumberOfBallsFilters.map(label => {
+        heading: { text: 'Organisation' },
+        items: selectedOrganisationFilters.map(label => {
           return {
             text: label,
-            href: `/datasets/remove-numberOfBalls/${label}`
+            href: `/datasets/remove-organisation/${label}`
           }
         })
       })
@@ -70,10 +70,19 @@ module.exports = router => {
     let pagination = new Pagination(datasets, req.query.page, pageSize)
     datasets = pagination.getData()
 
+    let organisationCheckboxItems = require('../data/organisations.json').map(item => {
+      return {
+        text: item.name,
+        value: item.name
+      }
+    })
+
+
     res.render('datasets/index', {
       datasets,
       selectedFilters,
-      pagination
+      pagination,
+      organisationCheckboxItems
     })
   })
 
@@ -87,14 +96,14 @@ module.exports = router => {
     res.redirect('/datasets')
   })
 
-  router.get('/datasets/remove-numberOfBalls/:numberOfBalls', (req, res) => {
-    _.set(req, 'session.data.filters.numberOfBalls', _.pull(req.session.data.filters.numberOfBalls, req.params.numberOfBalls))
+  router.get('/datasets/remove-organisation/:organisation', (req, res) => {
+    _.set(req, 'session.data.filters.organisation', _.pull(req.session.data.filters.organisations, req.params.organisation))
     res.redirect('/datasets')
   })
 
   router.get('/datasets/clear-filters', (req, res) => {
     _.set(req, 'session.data.filters.statuses', null)
-    _.set(req, 'session.data.filters.numberOfBalls', null)
+    _.set(req, 'session.data.filters.organisations', null)
     res.redirect('/datasets')
   })
 
