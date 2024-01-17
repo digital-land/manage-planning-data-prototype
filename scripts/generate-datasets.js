@@ -4,7 +4,26 @@ const faker =  require('@faker-js/faker').faker
 const organisations = require('../app/data/organisations.json')
 
 const generateDataset = (params) => {
-  return params
+  let dataset = {}
+
+  dataset.id = "" + faker.number.int({ min: 123456, max: 999999 })
+
+  dataset.organisation = params.organisation
+  dataset.name = params.name
+  dataset.subject = params.subject
+
+  let now = new Date().toISOString()
+
+  dataset.lastUpdatedDate = faker.date.recent({ days: 21 })
+
+  dataset.status = faker.helpers.arrayElement([
+    'Not started',
+    'Not working',
+    'Awaiting publication',
+    'Published'
+  ])
+
+  return dataset;
 }
 
 const generateDatasets = () => {
@@ -12,72 +31,52 @@ const generateDatasets = () => {
 
   organisations.forEach((item) => {
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
-      name: 'Brownfield land dataset',
-      subject: 'Brownfield land data',
-      status: 'Awaiting publication'
+      name: 'Brownfield land',
+      subject: 'Brownfield land data'
     }))
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
-      name: 'Article 4 direction dataset',
-      subject: 'Article 4',
-      status: 'Awaiting publication'
+      name: 'Article 4 direction',
+      subject: 'Article 4'
     }))
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
-      name: 'Article 4 direction area dataset',
-      subject: 'Article 4',
-      status: 'Not started'
+      name: 'Article 4 direction area',
+      subject: 'Article 4'
     }))
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
-      name: 'Conservation area dataset',
-      subject: 'Conservation area',
-      status: 'Published'
+      name: 'Conservation area',
+      subject: 'Conservation area'
     }))
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
-      name: 'Conservation area document dataset',
-      subject: 'Conservation area',
-      status: 'Not working'
+      name: 'Conservation area document',
+      subject: 'Conservation area'
     }))
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
       name: 'Listed building',
       subject: 'Listed building',
       status: 'Not started'
     }))
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
-      name: 'Tree preservation order dataset',
-      subject: 'Tree preservation order',
-      status: 'Not working'
+      name: 'Tree preservation order',
+      subject: 'Tree preservation order'
     }))
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
-      name: 'Tree preservation zone dataset',
-      subject: 'Tree preservation order',
-      status: 'Not started'
+      name: 'Tree preservation zone',
+      subject: 'Tree preservation order'
     }))
     datasets.push(generateDataset({
-      id: '' + faker.number.int({ min: 123456, max: 999999 }),
       organisation: item,
-      name: 'Tree preservation order dataset',
-      subject: 'Tree dataset',
-      status: 'Not started'
+      name: 'Tree preservation order',
+      subject: 'Tree dataset'
     }))
   })
-
-
-
 
   return datasets
 }

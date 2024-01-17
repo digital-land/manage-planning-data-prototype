@@ -1,0 +1,126 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName = dataset.name %}
+{% set primaryNavId = 'datasets' %}
+
+{% block content %}
+  {{ govukNotificationBanner({
+    type: "success",
+    html: '<h2 class="govuk-heading-m">' + flash + '</h2>'
+  }) if flash.length }}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <span class="govuk-caption-l">{{dataset.id}}</span>
+      <h1 class="govuk-heading-l">
+        {{ pageName }}
+        {{ govukTag({
+          text: dataset.status,
+          classes: dataset.status | statusColour
+        }) }}
+      </h1>
+
+      {% if dataset.status == 'Awaiting publication' %}
+        <div class="govuk-button-group">
+          {{ govukButton({
+            text: "Approve",
+            href: "/datasets/" + dataset.id + "/approve"
+          }) }}
+          {{ govukButton({
+            text: "Reject",
+            href: "/datasets/" + dataset.id + "/reject",
+            classes: "govuk-button--secondary"
+          }) }}
+        </div>
+      {% endif %}
+
+      {% if application.status == 'Approved' %}
+        <p>Application approved on {{application.approvedDate | govukDate}} at {{application.approvedDate | govukTime}}.</p>
+      {% endif %}
+
+      {% if application.status == 'Rejected' %}
+        <p>Application rejected on {{application.rejectedDate | govukDate}} at {{application.rejectedDate | govukTime}}.</p>
+      {% endif %}
+
+      <h2 class="govuk-heading-m">Dataset details</h2>
+
+      {{ govukSummaryList({
+        rows: [
+          {
+            key: {
+              text: "Dataset ID"
+            },
+            value: {
+              text: dataset.id
+            }
+          },
+          {
+            key: {
+              text: "URL"
+            },
+            value: {
+              text: "https://barnet.gov/data/conversations-area.csv"
+            },
+            actions: {
+              items: [
+                {
+                  href: "/datasets/" + dataset.id + "/edit-url",
+                  text: "Change",
+                  visuallyHiddenText: "URL"
+                }
+              ]
+            }
+          },
+          {
+            key: {
+              text: "Last updated date"
+            },
+            value: {
+              text: dataset.lastUpdatedDate | govukDate + ' at ' + dataset.lastUpdatedDate | govukTime
+            }
+          }
+        ]
+      }) }}
+
+      <h2 class="govuk-heading-m">Map</h2>
+
+      <div class="app-map">
+        <img src="/public/images/maps/barnet.png" width="100%">
+      </div>
+
+      <h2 class="govuk-heading-m">Users</h2>
+
+      <p><a href="#">Invite user to provide this data</a></p>
+
+      <div class="app-list">
+        <div class="app-list__item">
+          <h2 class="govuk-heading-s">
+            <a href="/users/{{user.id}}">
+              Rachael Harvey
+            </a>
+          </h2>
+
+          {{ govukSummaryList({
+            classes: "govuk-summary-list--no-border",
+            rows: [
+              {
+                key: {
+                  text: "Email address"
+                },
+                value: {
+                  text: "rachael.harvey@barnet.gov"
+                }
+              }
+            ]
+          }) }}
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}

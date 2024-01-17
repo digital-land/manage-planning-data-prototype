@@ -16,6 +16,9 @@
     position: absolute;
     top: govuk-spacing(4);
     right: 0;
+    margin: 0;
+    // white-space: nowrap;
+    max-width: 100%;
   }
 
   .govuk-summary-list {
