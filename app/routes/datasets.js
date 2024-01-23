@@ -1,5 +1,6 @@
 const _ = require('lodash')
 const Pagination = require('../helpers/pagination')
+const statuses = require('../data/statuses.json')
 
 module.exports = router => {
 
@@ -77,8 +78,15 @@ module.exports = router => {
       }
     })
 
+    let statusFilterOptions = statuses.map(status => {
+      return {
+        text: status,
+        value: status
+      }
+    })
 
     res.render('datasets/index', {
+      statusFilterOptions,
       datasets,
       selectedFilters,
       pagination,

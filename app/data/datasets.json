@@ -1,992 +1,1082 @@
 [
   {
-    "id": "983233",
+    "id": "651478",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2024-01-01T11:32:49.960Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-19T04:46:42.998Z",
+    "status": "Published with errors",
+    "url": "https://ulluscouncil/data/Brownfield land.csv"
   },
   {
-    "id": "818560",
+    "id": "445117",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-10T18:25:42.019Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-10T13:28:53.794Z",
+    "status": "Published",
+    "url": "https://ulluscouncil/data/Article 4 direction.csv"
   },
   {
-    "id": "945482",
+    "id": "614293",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-04T20:46:43.881Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-15T22:23:51.098Z",
+    "status": "Needs fixing",
+    "url": "https://ulluscouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "231656",
+    "id": "631978",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-13T21:09:07.352Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-10T17:16:46.606Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "925240",
+    "id": "544249",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2023-12-30T17:19:39.681Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-19T21:31:40.875Z",
+    "status": "Awaiting publication",
+    "url": "https://ulluscouncil/data/Conservation area document.csv"
   },
   {
-    "id": "999406",
+    "id": "265355",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2024-01-03T15:40:05.261Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-11T11:11:10.293Z",
+    "status": "Published",
+    "url": "https://ulluscouncil/data/Listed building.csv"
   },
   {
-    "id": "551766",
+    "id": "982685",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-08T12:22:48.107Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-13T06:13:09.767Z",
+    "status": "Needs fixing",
+    "url": "https://ulluscouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "282858",
+    "id": "392285",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-30T02:07:40.568Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-17T06:57:34.959Z",
+    "status": "Published with errors",
+    "url": "https://ulluscouncil/data/Tree preservation zone.csv"
   },
   {
-    "id": "771682",
+    "id": "504157",
     "organisation": {
-      "id": "375448",
-      "name": "Ceno Council"
+      "id": "592012",
+      "name": "Ullus Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2024-01-05T22:43:04.533Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-12T19:29:36.382Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "381131",
+    "id": "825768",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2024-01-03T16:07:34.055Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-14T00:59:21.379Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "484456",
+    "id": "592363",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-01T03:13:43.205Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-03T11:11:59.707Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "321516",
+    "id": "131625",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-12T10:41:49.576Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-19T01:48:57.177Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "134757",
+    "id": "224462",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-01T02:26:38.102Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-05T10:53:55.772Z",
+    "status": "Awaiting publication",
+    "url": "https://magnicouncil/data/Conservation area.csv"
   },
   {
-    "id": "535627",
+    "id": "838946",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2023-12-30T11:59:15.539Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-04T11:22:17.797Z",
+    "status": "Needs fixing",
+    "url": "https://magnicouncil/data/Conservation area document.csv"
   },
   {
-    "id": "525797",
+    "id": "403530",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2024-01-10T23:36:11.267Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-14T22:15:17.151Z",
+    "status": "Needs fixing",
+    "url": "https://magnicouncil/data/Listed building.csv"
   },
   {
-    "id": "867637",
+    "id": "729273",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-26T21:09:22.916Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-12T00:00:44.064Z",
+    "status": "Awaiting publication",
+    "url": "https://magnicouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "904778",
+    "id": "770621",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-31T09:17:44.552Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-16T11:18:19.604Z",
+    "status": "Published with errors",
+    "url": "https://magnicouncil/data/Tree preservation zone.csv"
   },
   {
-    "id": "696604",
+    "id": "706286",
     "organisation": {
-      "id": "589098",
-      "name": "Video Council"
+      "id": "174310",
+      "name": "Magni Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2024-01-11T02:27:47.098Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-20T11:34:09.528Z",
+    "status": "Published",
+    "url": "https://magnicouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "554897",
+    "id": "427748",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2023-12-28T14:59:29.431Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-18T05:10:47.817Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "846816",
+    "id": "231149",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-01T11:01:56.091Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-14T01:01:53.000Z",
+    "status": "Needs fixing",
+    "url": "https://clarocouncil/data/Article 4 direction.csv"
   },
   {
-    "id": "588600",
+    "id": "433279",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-08T16:27:42.971Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-21T06:00:11.187Z",
+    "status": "Needs fixing",
+    "url": "https://clarocouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "600144",
+    "id": "571619",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-10T02:01:09.394Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-15T04:28:05.320Z",
+    "status": "Published with errors",
+    "url": "https://clarocouncil/data/Conservation area.csv"
   },
   {
-    "id": "824393",
+    "id": "711683",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-15T03:16:04.589Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-20T01:33:49.859Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "424771",
+    "id": "884120",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2024-01-01T11:45:43.995Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-07T23:44:22.130Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "792911",
+    "id": "253722",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-29T22:04:59.574Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-05T22:12:46.529Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "529538",
+    "id": "808514",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-29T05:01:30.728Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-05T13:07:02.796Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "601781",
+    "id": "682177",
     "organisation": {
-      "id": "609963",
-      "name": "Ars Council"
+      "id": "524064",
+      "name": "Claro Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2023-12-31T19:49:53.599Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-10T16:30:22.462Z",
+    "status": "Needs fixing",
+    "url": "https://clarocouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "744787",
+    "id": "453222",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2024-01-15T00:34:29.651Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-12T17:04:55.416Z",
+    "status": "Needs fixing",
+    "url": "https://vulgivaguscouncil/data/Brownfield land.csv"
   },
   {
-    "id": "235818",
+    "id": "611011",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-06T01:13:19.455Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-16T13:39:18.506Z",
+    "status": "Published",
+    "url": "https://vulgivaguscouncil/data/Article 4 direction.csv"
   },
   {
-    "id": "873751",
+    "id": "759295",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-07T18:21:48.656Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-23T07:13:04.784Z",
+    "status": "Awaiting publication",
+    "url": "https://vulgivaguscouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "885112",
+    "id": "692356",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2023-12-31T09:23:37.659Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-03T11:33:33.051Z",
+    "status": "Awaiting publication",
+    "url": "https://vulgivaguscouncil/data/Conservation area.csv"
   },
   {
-    "id": "951683",
+    "id": "679857",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-12T13:22:28.717Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-22T06:29:42.362Z",
+    "status": "Needs fixing",
+    "url": "https://vulgivaguscouncil/data/Conservation area document.csv"
   },
   {
-    "id": "125896",
+    "id": "404771",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2024-01-12T11:29:10.575Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-18T01:34:05.636Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "900183",
+    "id": "707321",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-14T06:03:38.597Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-13T10:59:22.176Z",
+    "status": "Awaiting publication",
+    "url": "https://vulgivaguscouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "257834",
+    "id": "356946",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-07T14:34:14.711Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-13T05:58:54.104Z",
+    "status": "Published",
+    "url": "https://vulgivaguscouncil/data/Tree preservation zone.csv"
   },
   {
-    "id": "454565",
+    "id": "278858",
     "organisation": {
-      "id": "745708",
-      "name": "Paulatim Council"
+      "id": "669257",
+      "name": "Vulgivagus Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2024-01-08T11:53:19.474Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-19T21:47:03.391Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "296866",
+    "id": "939508",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2024-01-06T14:15:58.451Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-18T16:10:32.476Z",
+    "status": "Awaiting publication",
+    "url": "https://angustuscouncil/data/Brownfield land.csv"
   },
   {
-    "id": "995762",
+    "id": "822423",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-12T19:00:18.534Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-14T18:28:07.797Z",
+    "status": "Needs fixing",
+    "url": "https://angustuscouncil/data/Article 4 direction.csv"
   },
   {
-    "id": "225069",
+    "id": "880526",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-14T12:03:43.615Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-08T10:04:22.445Z",
+    "status": "Published",
+    "url": "https://angustuscouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "978403",
+    "id": "572459",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2023-12-29T07:46:38.586Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-06T06:46:43.525Z",
+    "status": "Awaiting publication",
+    "url": "https://angustuscouncil/data/Conservation area.csv"
   },
   {
-    "id": "432124",
+    "id": "672202",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-13T10:08:42.820Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-11T22:49:18.561Z",
+    "status": "Published with errors",
+    "url": "https://angustuscouncil/data/Conservation area document.csv"
   },
   {
-    "id": "930727",
+    "id": "557459",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2024-01-07T09:37:20.998Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-21T08:25:35.783Z",
+    "status": "Awaiting publication",
+    "url": "https://angustuscouncil/data/Listed building.csv"
   },
   {
-    "id": "765264",
+    "id": "806021",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-06T20:17:15.844Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-14T20:29:12.902Z",
+    "status": "Needs fixing",
+    "url": "https://angustuscouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "861970",
+    "id": "289015",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-06T13:20:18.145Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-14T22:26:43.248Z",
+    "status": "Awaiting publication",
+    "url": "https://angustuscouncil/data/Tree preservation zone.csv"
   },
   {
-    "id": "826531",
+    "id": "291707",
     "organisation": {
-      "id": "639882",
-      "name": "Vulnus Council"
+      "id": "461514",
+      "name": "Angustus Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2024-01-02T07:35:51.259Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-14T10:37:58.600Z",
+    "status": "Needs fixing",
+    "url": "https://angustuscouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "356765",
+    "id": "896524",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2024-01-03T03:01:14.305Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-02T23:22:21.953Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "913222",
+    "id": "301837",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2023-12-27T18:19:38.679Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-12T04:34:42.804Z",
+    "status": "Needs fixing",
+    "url": "https://utcouncil/data/Article 4 direction.csv"
   },
   {
-    "id": "295853",
+    "id": "515152",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-16T08:19:58.043Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-20T13:24:03.107Z",
+    "status": "Published",
+    "url": "https://utcouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "777954",
+    "id": "140981",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2023-12-29T12:17:24.477Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-18T14:24:52.224Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "199687",
+    "id": "687168",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-09T07:01:20.896Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-20T19:34:58.190Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "466122",
+    "id": "852434",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2024-01-05T05:22:36.874Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-13T09:46:22.284Z",
+    "status": "Needs fixing",
+    "url": "https://utcouncil/data/Listed building.csv"
   },
   {
-    "id": "534839",
+    "id": "240113",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-28T18:44:51.946Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-10T13:39:27.859Z",
+    "status": "Awaiting publication",
+    "url": "https://utcouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "661324",
+    "id": "348767",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-05T01:44:38.912Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-04T22:43:33.243Z",
+    "status": "Published with errors",
+    "url": "https://utcouncil/data/Tree preservation zone.csv"
   },
   {
-    "id": "928676",
+    "id": "154302",
     "organisation": {
-      "id": "854771",
-      "name": "Aureus Council"
+      "id": "497901",
+      "name": "Ut Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2024-01-05T19:19:44.006Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-11T07:27:39.268Z",
+    "status": "Awaiting publication",
+    "url": "https://utcouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "756404",
+    "id": "479482",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2024-01-12T07:54:02.697Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-10T10:32:41.465Z",
+    "status": "Published",
+    "url": "https://balbuscouncil/data/Brownfield land.csv"
   },
   {
-    "id": "451971",
+    "id": "489570",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-02T23:46:16.088Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-22T00:42:09.218Z",
+    "status": "Published",
+    "url": "https://balbuscouncil/data/Article 4 direction.csv"
   },
   {
-    "id": "914015",
+    "id": "864338",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-07T05:36:25.205Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-11T21:41:22.515Z",
+    "status": "Needs fixing",
+    "url": "https://balbuscouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "733479",
+    "id": "324877",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2023-12-26T22:16:57.977Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-18T00:46:52.996Z",
+    "status": "Needs fixing",
+    "url": "https://balbuscouncil/data/Conservation area.csv"
   },
   {
-    "id": "149940",
+    "id": "586615",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-07T22:11:09.367Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-16T03:25:39.329Z",
+    "status": "Published with errors",
+    "url": "https://balbuscouncil/data/Conservation area document.csv"
   },
   {
-    "id": "171574",
+    "id": "470945",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2023-12-30T10:13:39.589Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-05T13:30:02.447Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "621753",
+    "id": "410511",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-07T22:25:44.374Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-03T03:10:46.842Z",
+    "status": "Published",
+    "url": "https://balbuscouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "686004",
+    "id": "400474",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-16T09:14:25.426Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-11T12:38:59.036Z",
+    "status": "Published with errors",
+    "url": "https://balbuscouncil/data/Tree preservation zone.csv"
   },
   {
-    "id": "992434",
+    "id": "596982",
     "organisation": {
-      "id": "234529",
-      "name": "Corrigo Council"
+      "id": "882033",
+      "name": "Balbus Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2023-12-26T14:50:49.240Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-09T05:32:03.019Z",
+    "status": "Published",
+    "url": "https://balbuscouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "569445",
+    "id": "617371",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2024-01-10T07:33:46.285Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-20T03:42:13.859Z",
+    "status": "Published",
+    "url": "https://veniocouncil/data/Brownfield land.csv"
   },
   {
-    "id": "925980",
+    "id": "979345",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-06T18:46:24.257Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-13T21:52:37.062Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "550840",
+    "id": "186431",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-16T09:50:23.445Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-10T14:49:29.192Z",
+    "status": "Published",
+    "url": "https://veniocouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "664995",
+    "id": "393346",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-09T15:37:04.607Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-18T03:21:27.401Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "554091",
+    "id": "257408",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-04T10:34:47.883Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-19T17:04:28.242Z",
+    "status": "Awaiting publication",
+    "url": "https://veniocouncil/data/Conservation area document.csv"
   },
   {
-    "id": "655017",
+    "id": "260549",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2023-12-29T11:12:17.624Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-02T18:44:50.367Z",
+    "status": "Published",
+    "url": "https://veniocouncil/data/Listed building.csv"
   },
   {
-    "id": "920415",
+    "id": "985260",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-06T19:54:05.222Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-03T07:31:00.453Z",
+    "status": "Published",
+    "url": "https://veniocouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "357634",
+    "id": "338101",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-31T06:07:53.122Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-04T10:31:05.108Z",
+    "status": "Awaiting publication",
+    "url": "https://veniocouncil/data/Tree preservation zone.csv"
   },
   {
-    "id": "399265",
+    "id": "979718",
     "organisation": {
-      "id": "865825",
-      "name": "Umquam Council"
+      "id": "516964",
+      "name": "Venio Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2023-12-31T01:12:28.621Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-11T09:55:30.977Z",
+    "status": "Awaiting publication",
+    "url": "https://veniocouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "962045",
+    "id": "828572",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2023-12-30T13:08:34.041Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-13T02:39:41.498Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "765137",
+    "id": "532878",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-15T16:38:06.178Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-21T01:40:18.615Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "214232",
+    "id": "551160",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-11T16:56:39.281Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-03T06:18:43.931Z",
+    "status": "Needs fixing",
+    "url": "https://tenercouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "989191",
+    "id": "971847",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-15T02:26:36.785Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-21T17:10:12.119Z",
+    "status": "Awaiting publication",
+    "url": "https://tenercouncil/data/Conservation area.csv"
   },
   {
-    "id": "625572",
+    "id": "623865",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-05T22:43:51.304Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-03T08:18:21.835Z",
+    "status": "Awaiting publication",
+    "url": "https://tenercouncil/data/Conservation area document.csv"
   },
   {
-    "id": "257584",
+    "id": "915147",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2024-01-09T00:50:36.772Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-18T01:11:38.517Z",
+    "status": "Needs fixing",
+    "url": "https://tenercouncil/data/Listed building.csv"
   },
   {
-    "id": "310050",
+    "id": "460855",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-27T15:14:44.719Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-03T00:15:30.202Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "457063",
+    "id": "168672",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-12T20:20:38.237Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-11T17:49:34.220Z",
+    "status": "Published with errors",
+    "url": "https://tenercouncil/data/Tree preservation zone.csv"
   },
   {
-    "id": "587652",
+    "id": "194394",
     "organisation": {
-      "id": "479705",
-      "name": "Usus Council"
+      "id": "563912",
+      "name": "Tener Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2024-01-12T22:12:38.110Z",
-    "status": "Not started"
+    "lastUpdatedDate": "2024-01-10T22:21:56.550Z",
+    "status": "Published",
+    "url": "https://tenercouncil/data/Tree preservation order.csv"
   },
   {
-    "id": "670676",
+    "id": "229146",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Brownfield land",
     "subject": "Brownfield land data",
-    "lastUpdatedDate": "2024-01-04T04:53:12.456Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-05T06:55:58.363Z",
+    "status": "Published with errors",
+    "url": "https://beataecouncil/data/Brownfield land.csv"
   },
   {
-    "id": "220732",
+    "id": "128331",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Article 4 direction",
     "subject": "Article 4",
-    "lastUpdatedDate": "2024-01-04T19:49:43.305Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-09T17:49:59.161Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "813627",
+    "id": "993851",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Article 4 direction area",
     "subject": "Article 4",
-    "lastUpdatedDate": "2023-12-27T19:26:03.470Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-03T11:43:16.215Z",
+    "status": "Awaiting publication",
+    "url": "https://beataecouncil/data/Article 4 direction area.csv"
   },
   {
-    "id": "262156",
+    "id": "264160",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Conservation area",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-03T22:41:51.700Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-07T01:01:51.843Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "620524",
+    "id": "137344",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Conservation area document",
     "subject": "Conservation area",
-    "lastUpdatedDate": "2024-01-02T15:37:48.924Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-19T18:18:05.364Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "641505",
+    "id": "266484",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Listed building",
     "subject": "Listed building",
-    "lastUpdatedDate": "2023-12-27T21:40:05.624Z",
-    "status": "Awaiting publication"
+    "lastUpdatedDate": "2024-01-13T19:44:03.139Z",
+    "status": "Awaiting publication",
+    "url": "https://beataecouncil/data/Listed building.csv"
   },
   {
-    "id": "807500",
+    "id": "858154",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2023-12-28T03:38:40.972Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-21T06:13:22.122Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "235672",
+    "id": "896821",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Tree preservation zone",
     "subject": "Tree preservation order",
-    "lastUpdatedDate": "2024-01-13T13:53:03.610Z",
-    "status": "Published"
+    "lastUpdatedDate": "2024-01-02T23:59:15.759Z",
+    "status": "Not started",
+    "url": null
   },
   {
-    "id": "728766",
+    "id": "633972",
     "organisation": {
-      "id": "638063",
-      "name": "Pecto Council"
+      "id": "449660",
+      "name": "Beatae Council"
     },
     "name": "Tree preservation order",
     "subject": "Tree dataset",
-    "lastUpdatedDate": "2024-01-06T14:21:45.363Z",
-    "status": "Not working"
+    "lastUpdatedDate": "2024-01-03T17:07:12.321Z",
+    "status": "Needs fixing",
+    "url": "https://beataecouncil/data/Tree preservation order.csv"
   }
 ]

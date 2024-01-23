@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const faker =  require('@faker-js/faker').faker
 const organisations = require('../app/data/organisations.json')
+const statuses = require('../app/data/statuses.json')
 
 const generateDataset = (params) => {
   let dataset = {}
@@ -16,12 +17,22 @@ const generateDataset = (params) => {
 
   dataset.lastUpdatedDate = faker.date.recent({ days: 21 })
 
-  dataset.status = faker.helpers.arrayElement([
-    'Not started',
-    'Not working',
-    'Awaiting publication',
-    'Published'
-  ])
+  dataset.status = faker.helpers.arrayElement(statuses)
+
+  let urlOptions = [
+    null,
+    'https://barnet.gov/data/conversations-area.csv'
+  ]
+
+  if(params.url) {
+    dataset.url = params.url
+  } else {
+    if(dataset.status === 'Not started') {
+      dataset.url = null
+    } else {
+      dataset.url = 'https://' + dataset.organisation.name.toLowerCase().replace(/\s/g, '') + '/data/' + dataset.name + '.csv'
+    }
+  }
 
   return dataset;
 }

@@ -13,9 +13,11 @@ addFilter('statusColour', status => {
       return 'govuk-tag--grey'
     case 'Awaiting publication':
       return 'govuk-tag--purple'
-    case 'Not working':
+    case 'Needs fixing':
       return 'govuk-tag--red'
     case 'Published':
       return 'govuk-tag--green'
+    case 'Published with errors':
+      return 'govuk-tag--yellow'
   }
 })

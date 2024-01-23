@@ -21,19 +21,22 @@
         }) }}
       </h1>
 
-      {% if dataset.status == 'Awaiting publication' %}
-        <div class="govuk-button-group">
-          {{ govukButton({
-            text: "Approve",
-            href: "/datasets/" + dataset.id + "/approve"
-          }) }}
-          {{ govukButton({
-            text: "Reject",
-            href: "/datasets/" + dataset.id + "/reject",
-            classes: "govuk-button--secondary"
-          }) }}
-        </div>
-      {% endif %}
+      <div class="govuk-button-group">
+        {% if dataset.status == 'Not started' %}
+          <p><a href="#">Check dataset</a></p>
+        {% elseif dataset.status == 'Awaiting publication' %}
+          <p><a href="#">Check dataset</a></p>
+          <p><a href="#">Publish</a></p>
+        {% elseif dataset.status == 'Needs fixing' %}
+          <p><a href="#">View errors</a></p>
+        {% elseif dataset.status == 'Published' %}
+          <p><a href="#">Check dataset</a></p>
+          <p><a href="#">Unpublish dataset</a></p>
+        {% elseif dataset.status == 'Published with errors' %}
+          <p><a href="#">Check dataset</a></p>
+          <p><a href="#">Unpublish dataset</a></p>
+        {% endif %}
+      </div>
 
       {% if application.status == 'Approved' %}
         <p>Application approved on {{application.approvedDate | govukDate}} at {{application.approvedDate | govukTime}}.</p>
@@ -57,10 +60,18 @@
           },
           {
             key: {
+              text: "Organisation"
+            },
+            value: {
+              text: dataset.organisation.name
+            }
+          },
+          {
+            key: {
               text: "URL"
             },
             value: {
-              text: "https://barnet.gov/data/conversations-area.csv"
+              text: dataset.url or 'Not provided'
             },
             actions: {
               items: [
